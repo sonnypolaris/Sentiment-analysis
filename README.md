@@ -74,10 +74,12 @@ Employ the scripts for data cleaning and merging, creating a dataset ready for a
 ### 8. Calculating Vader Sentiment Score and Sentiment
 Using helper functions, calculate Vader sentiment scores. The cleaned data, with sentiment scores included, is then added to a Snowflake table named ‘BEAUTY_PRODUCT_REVIEWS’ for further analysis.
 
+<img src = "images/polarity distribution.png" width = 500>
+
 ### 9. Emotion Detection Using Review Data
 Apply the text2emotion library to determine the emotions expressed in each review. The results are stored in a Snowflake table named ‘EMOTIONS_OVERALL’.
 
-![alt text](https://github.com/sree-soundarya/Sentiment-analysis/images/"emotion distribution.png")
+<img src = "images/emotion distribution.png" width = 500>
 
 ### 10. Category-based Analysis
 Categorize products and perform an analysis based on these categories. Results can be stored and analyzed in another Snowflake table ‘Category Analysis’
@@ -86,8 +88,12 @@ In the provided code, we extract only the necessary columns from the refined dat
 ### 11. Product Recommendations
 Leverage sentiment scores to classify products as recommended or not based on sentiment expressed in reviews.We establish a classification threshold of 0.75 to determine whether a product should be categorized as recommended or not. Store the recommendations in a Snowflake table named ‘RECOMMENDATIONS’ for easy retrieval and analysis.
 
+<img src = "images/recommendation.png" >
+
 ### 12. Examining Sentiment Trends Over Time
-Examining sentiment trends over time involves tracking how sentiments expressed in reviews change across different periods. This analysis helps uncover patterns and fluctuations in sentiments, offering valuable insights into customer opinions and reactions. Store this data in the ‘SENTIMENT_TRENDS’ Snowflake table 
+Examining sentiment trends over time involves tracking how sentiments expressed in reviews change across different periods. This analysis helps uncover patterns and fluctuations in sentiments, offering valuable insights into customer opinions and reactions. Store this data in the ‘SENTIMENT_TRENDS’ Snowflake table.
+
+<img src = "images/sentiment trends.png" >
 
 ## Conclusion 
 After connecting to Snowflake, ThoughtSpot’s AI-powered Analytics allow anyone to ask and answer questions from our Snowpark’s machine-learning results. 
