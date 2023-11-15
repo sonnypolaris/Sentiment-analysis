@@ -77,6 +77,8 @@ Using helper functions, calculate Vader sentiment scores. The cleaned data, with
 ### 9. Emotion Detection Using Review Data
 Apply the text2emotion library to determine the emotions expressed in each review. The results are stored in a Snowflake table named ‘EMOTIONS_OVERALL’.
 
+![](images/emotion detection.png)
+
 ### 10. Category-based Analysis
 Categorize products and perform an analysis based on these categories. Results can be stored and analyzed in another Snowflake table ‘Category Analysis’
 In the provided code, we extract only the necessary columns from the refined dataset. Notably, we apply a filter to obtain data from the top 10 product categories, focusing on those with substantial review counts. 
