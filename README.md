@@ -95,6 +95,10 @@ Examining sentiment trends over time involves tracking how sentiments expressed 
 
 <img src = "images/sentiment trends.png" >
 
+
+## Guide to use .tml files
+For step-by-step instructions on how to import .tml files into your ThoughtSpot cluster please refer [How to use TML files](https://docs.thoughtspot.com/cloud/latest/scriptability#_how_to_use_tml_files)
+
 ## Conclusion 
 After connecting to Snowflake, ThoughtSpot’s AI-powered Analytics allow anyone to ask and answer questions from our Snowpark’s machine-learning results. 
 
